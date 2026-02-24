@@ -30,15 +30,19 @@ const Sidebar = () => {
         <NavLink to="/" className={linkClasses}>
           <p className="font-medium text-lg">Home</p>
         </NavLink>
-        <NavLink to="/contact" className={linkClasses}>
-          <p className="font-medium text-lg">Contact</p>
-        </NavLink>
+        
         <NavLink to="/services" className={linkClasses}>
           <p className="font-medium text-lg">Services</p>
         </NavLink>
         <NavLink to="/portfolio" className={linkClasses}>
           <p className="font-medium text-lg">Portfolio</p>
         </NavLink>
+       <NavLink to="/contact" className={linkClasses}>
+          <p className="font-medium text-lg">Contact</p>
+        </NavLink>
+
+
+
       </div>
 
      <a
